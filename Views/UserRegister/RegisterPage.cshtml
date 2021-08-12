@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "RegisterPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>User Registration</h1>
+    <form>
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td><label>User Name </label></td>
+                    <td><input type="text" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address </label></td>
+                    <td><input type="email"  class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Password </label></td>
+                    <td><input type="password" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Confirm Password </label></td>
+                    <td><input type="password" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Address </label></td>
+                    <td><input type="text" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Gender </label></td>
+                    <td>
+                        <input class="form-check-input" type="radio" id="male"  name="gender"value="male">
+                        <label for="html">M</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="css">F</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Cities of Interest </label></td>
+                    <td><input type="text" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Trains of Interest </label></td>
+                    <td><input type="text" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Subjects </label></td>
+                    <td><input type="text" class="form-control" required /></td>
+                </tr>
+                <tr>
+                    <td><label>Courses </label></td>
+                    <td>
+                        <select multiple>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Countries </label></td>
+                    <td>
+                        <select>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <button class="btn btn-lg" type="submit">Submit</button>
+    </form>
+</div>
+
+
+
+
